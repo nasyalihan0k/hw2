@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="	#6A5ACD"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:gravity="center"
+        android:textSize="40sp"
+        android:text="@string/number" />
+
+    <Button
+        android:id="@+id/plus_btn"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginStart="60dp"
+        android:textSize="50sp"
+        android:text="@string/plus"
+        android:background="@drawable/btn"/>
+
+    <Button
+        android:id="@+id/minus_btn"
+        android:layout_width="150sp"
+        android:layout_height="150sp"
+        android:layout_marginTop="300sp"
+        android:layout_marginStart="220dp"
+        android:textSize="50sp"
+        android:text="@string/minus"
+        android:background="@drawable/btn"/>
+</RelativeLayout>
